@@ -27,5 +27,8 @@ urlpatterns = [
     path('login/', views.loginuser, name='loginuser'),
     path('logout/', views.logoutuser, name='logoutuser'),
 
+    #Pizzaorder
+    path('', views.home, name='home'),
+
 
 ]
